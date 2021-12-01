@@ -1,0 +1,88 @@
+/* 
+MAIN COLOR: #66d9e8
+GREY COLOR: #343a40
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.navbar {
+  margin-bottom: 24px;
+}
+
+body {
+  font-family: "Lora", serif;
+  color: #343a40;
+}
+
+header,
+section {
+  margin-bottom: 48px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 24px;
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: -1px;
+}
+
+h2 {
+  margin-bottom: 48px;
+  font-size: 44px;
+  letter-spacing: -0.5px;
+}
+
+h3 {
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 80px;
+}
+
+.link-block {
+  margin-bottom: 12px;
+}
+
+.link-description {
+  padding-left: 8px;
+}
+
+.btn:link,
+.btn:visited {
+  background-color: #66d9e8;
+  color: #343a40;
+  text-decoration: none;
+  /* text-transform: uppercase; */
+  font-weight: 600;
+  display: block;
+  padding: 8px;
+  margin-bottom: 4px;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #99e9f2;
+}
