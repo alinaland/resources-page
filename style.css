@@ -64,25 +64,55 @@ p {
 
 .link-block {
   margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.btn-block {
+  background-color: #c5f6fa;
+  border-radius: 10% / 30%;
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 12px;
+  align-self: stretch;
+  margin-bottom: 4px;
+  padding: 4px;
 }
 
 .link-description {
-  padding-left: 8px;
+  display: inline-block;
 }
 
 .btn:link,
 .btn:visited {
-  background-color: #66d9e8;
+  /* background-color: #66d9e8; */
   color: #343a40;
   text-decoration: none;
   /* text-transform: uppercase; */
   font-weight: 600;
-  display: block;
+  display: inline-block;
   padding: 8px;
-  margin-bottom: 4px;
 }
 
 .btn:hover,
 .btn:active {
-  background-color: #99e9f2;
+  color: #f06595;
+  font-size: 18px;
+  /* background-color: #99e9f2; */
+}
+
+.btn {
+  align-self: center;
+}
+
+.link-icon {
+  /* stroke: #f06595;
+  fill: #f06595; */
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  margin: 4px;
+  align-self: center;
+  margin-left: 16px;
 }
