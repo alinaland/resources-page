@@ -78,6 +78,7 @@ p {
   align-self: stretch;
   margin-bottom: 4px;
   padding: 4px;
+  padding-bottom: 8px;
 }
 
 .link-description {
@@ -109,10 +110,15 @@ p {
 .link-icon {
   /* stroke: #f06595;
   fill: #f06595; */
-  width: 32px;
-  height: 32px;
+  width: 48px;
+  height: 48px;
   display: inline-block;
   margin: 4px;
   align-self: center;
   margin-left: 16px;
+  background-color: #99e9f2;
+  border-radius: 40%;
+  padding: 4px;
+  box-shadow: 0 3px 5px 0 rgb(240, 101, 149, 0.3);
+  /* border: 1px solid #f06595; */
 }
